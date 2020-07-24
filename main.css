@@ -1,62 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 body {
-    font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 .container {
-    width: 100%;
-	display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .header {
-    width: 100%;
-    height: auto;
-    max-width: 1100px;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  max-width: 1100px;
+  text-align: center;
 }
 .matchgrid {
-    width: 100%;
-    max-width: 1100px;
-	height: auto;
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: center;
+  width: 90%;
+  max-width: 1100px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
-    width: 22%;
-    height: 25vh;
-    min-height: 150px;
-	margin: 5px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-    justify-content: center;
+  width: 22%;
+  height: 23vh;
+  min-height: 120px;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card div {
-    font-size: 4em;
+  font-size: 4em;
 }
 .blank {
-    background: linear-gradient(125deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background: linear-gradient(125deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 .flipped {
-    background-color: dodgerblue;
-    transition: transform 0.8s;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
-    cursor: default;
+  background-color: dodgerblue;
+  transition: transform 0.8s;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  cursor: default;
 }
 .flip-back {
-    color: white;
-    transform: rotateY(180deg);
+  color: white;
+  transform: rotateY(180deg);
 }
 .matched {
-    cursor: default;
-	background-color: #FFF;
+  cursor: default;
+  background-color: #fff;
 }
 .red-out {
-    background: red;
-    opacity: 0.7;
+  background: red;
+  opacity: 0.7;
 }
